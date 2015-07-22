@@ -10,6 +10,7 @@ li:first-child {
 body{background: 	#F8F8F8; background:#E5E5E5;}
 ol{list-style-type: none;} 
 img{width:100%; }
+a{font-weight:old; margin-left:8%; text-decoration:none;  border:1px solid #f2f2f2; background:f2f2f2; padding:8px;  border-radius:6px;}
 
 
 

@@ -6,64 +6,53 @@ var PHPProjectSPortfolio =
 	  "id":1,
       "project_name": "Project Portfolio Tracker",
       "owner": {       
-        "avatar_url": "https://vzidana.files.wordpress.com/2014/12/378863_10150412548993267_1726019535_n-copy.jpg", 
+        "avatar_url": "ProjectPortfolioTracker.jpg", 
       },           
       "description": "https://github.com/redguide/nodejs",      
       "code_url": "https://api.github.com/repos/redguide/nodejs",  
 	   "demo_url": "https://www.youtube.com/watch?v=lJM2oFMoDkM",
-      "frontend_infor": "Html5,Html5 Drag and Drop API,CSS3,JavaScript,jQuery",      
-      "backend_infor": "Php5,MySQL,MS Excel"    
+      "frontend_infor": "Html5,CSS3,JavaScript,jQuery, Google Charts/Google Visualization API",      
+      "backend_infor": "Php5,SQL,MySQL"    
     },
     {
 		"id":2,
         "project_name": "Database Driven Google Map",
       "owner": {       
-        "avatar_url": "https://vzidana.files.wordpress.com/2014/12/340896_10150294808933267_508433853_o-copy-2.jpg", 
+        "avatar_url": "DatabaseDrivenMaps.jpg", 
       },           
       "description": "https://github.com/redguide/nodejs",      
       "code_url": "https://api.github.com/repos/redguide/nodejs", 
 	   "demo_url": "https://www.youtube.com/watch?v=lJM2oFMoDkM",
-      "frontend_infor": "html",      
-      "backend_infor": "mysql"  
+      "frontend_infor": "Html5,CSS3,JavaScript,Google Maps API",      
+      "backend_infor": "Php5,SQL,MySQL"  
     },
-    {
-		"id":3,
-       "project_name": "ScottWiggam Site",
-      "owner": {       
-        "avatar_url": "https://vzidana.files.wordpress.com/2014/12/4.jpg", 
-      },           
-      "description": "https://github.com/redguide/nodejs",      
-      "code_url": "https://api.github.com/repos/redguide/nodejs", 
-	   "demo_url": "https://www.youtube.com/watch?v=lJM2oFMoDkM",
-      "frontend_infor": "html",      
-      "backend_infor": "mysql"  
-    },
+  
 	
 	 {
-		"id":4,
+		"id":3,
        "project_name": "ScotBoard",
       "owner": {       
-        "avatar_url": "https://vzidana.files.wordpress.com/2014/12/starbacks-copy.jpg", 
+        "avatar_url": "ScotBoard.jpg", 
       },           
       "description": "https://github.com/redguide/nodejs",      
       "code_url": "https://www.youtube.com/watch?v=lJM2oFMoDkM",
 	  "demo_url": "https://www.youtube.com/watch?v=lJM2oFMoDkM",
-      "frontend_infor": "html",      
-      "backend_infor": "mysql"  
+      "frontend_infor": "Html5,CSS3,JavaScript,Html5 Drag and Drop API",      
+      "backend_infor": "Php5,SQL,MySQL"  
     },
   
-    {
-		"id":5,
+    /*{
+		"id":4,
       "project_name": "Drupal Module",
       "owner": {       
-        "avatar_url": "https://vzidana.files.wordpress.com/2014/12/1.jpg", 
+        "avatar_url": "drupal.jpg", 
       },           
       "description": "https://github.com/redguide/nodejs",      
       "code_url": "https://api.github.com/repos/redguide/nodejs", 
 	   "demo_url": "https://www.youtube.com/watch?v=lJM2oFMoDkM",
-      "frontend_infor": "html",      
-      "backend_infor": "mysql"  
-    }
+      "frontend_infor": "Html5,CSS3",      
+      "backend_infor": "Php5,SQL,MySQL"  
+    }*/
   ]
 }
 
@@ -72,7 +61,7 @@ var PHPProjectSPortfolio =
 text = "";
 var i;
 for (i = 0; i < PHPProjectSPortfolio.PHPProjects.length; i++) {
-    text +="<li><img src="+PHPProjectSPortfolio.PHPProjects[i].owner.avatar_url+"><br> <b>Project Name</b><br>"+ PHPProjectSPortfolio.PHPProjects[i].project_name + "<br><b>Description</b><br><a href="+PHPProjectSPortfolio.PHPProjects[i].description+ ">Description</a><br><b>Video Demo</b><br><a href="+PHPProjectSPortfolio.PHPProjects[i].demo_url+ ">Demo</a><br><b>Code Repository</b><br><a href="+PHPProjectSPortfolio.PHPProjects[i].code_url + ">Code</a><br><b>Front-End Technologies</b><br>"+PHPProjectSPortfolio.PHPProjects[i].frontend_infor + "<br><b> Back-End Technologies</b><br>"+PHPProjectSPortfolio.PHPProjects[i].backend_infor +"</li>";
+    text +="<li><img src="+PHPProjectSPortfolio.PHPProjects[i].owner.avatar_url+"><br><br><h3 align=center>"+ PHPProjectSPortfolio.PHPProjects[i].project_name + "</h3><a href="+PHPProjectSPortfolio.PHPProjects[i].description+ ">Description</a> <a href="+PHPProjectSPortfolio.PHPProjects[i].demo_url+ ">Demo</a> <a href="+PHPProjectSPortfolio.PHPProjects[i].code_url + ">Code</a><br><br><br><br><br></li>";
 }
 
 
