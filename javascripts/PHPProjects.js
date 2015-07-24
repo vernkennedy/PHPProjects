@@ -15,18 +15,7 @@ var PHPProjectSPortfolio =
       "backend_infor": "Php5,SQL,MySQL"    
     },
 	
-	{
-		"id":2,
-       "project_name": "ScotBoard",
-      "owner": {       
-        "avatar_url": "ScotBoard.jpg", 
-      },           
-      "description": "https://github.com/vernkennedy/IS-ScotBoard/blob/master/description.txt",      
-      "code_url": "https://github.com/vernkennedy/IS-ScotBoard",
-	  "demo_url": "https://www.youtube.com/watch?v=lJM2oFMoDkM",
-      "frontend_infor": "Html5,CSS3,JavaScript,Html5 Drag and Drop API",      
-      "backend_infor": "Php5,SQL,MySQL"  
-    },
+
 	
     {
 		"id":3,
@@ -39,8 +28,20 @@ var PHPProjectSPortfolio =
 	   "demo_url": "https://www.youtube.com/watch?v=QAgBDwnvH3I",
       "frontend_infor": "Html5,CSS3,JavaScript,Google Maps API",      
       "backend_infor": "Php5,SQL,MySQL"  
-    }
+    },
   
+  	{
+		"id":2,
+       "project_name": "ScotBoard",
+      "owner": {       
+        "avatar_url": "ScotBoard.jpg", 
+      },           
+      "description": "https://github.com/vernkennedy/IS-ScotBoard/blob/master/description.txt",      
+      "code_url": "https://github.com/vernkennedy/IS-ScotBoard",
+	  "demo_url": "https://www.youtube.com/watch?v=lJM2oFMoDkM",
+      "frontend_infor": "Html5,CSS3,JavaScript,Html5 Drag and Drop API",      
+      "backend_infor": "Php5,SQL,MySQL"  
+    }
 	
 	 
   ]
