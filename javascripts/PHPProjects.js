@@ -18,7 +18,7 @@ var PHPProjectSPortfolio =
 
 	
     {
-		"id":3,
+		"id":2,
         "project_name": "Database Driven Google Map",
       "owner": {       
         "avatar_url": "DatabaseDrivenMaps.jpg", 
@@ -31,7 +31,7 @@ var PHPProjectSPortfolio =
     },
   
   	{
-		"id":2,
+		"id":3,
        "project_name": "ScotBoard",
       "owner": {       
         "avatar_url": "ScotBoard.jpg", 
