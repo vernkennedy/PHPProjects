@@ -19,6 +19,7 @@ a{font-weight:old; margin-left:2%; text-decoration:none;  border:1px solid #f2f2
 		-moz-column-count: 1; /* Firefox */
 		column-count: 1;  }	
 	body{overflow:scroll;  }
-	li{margin-top:50px;}
+	ol,li{margin-top:80px;}
+	
 	
 }
