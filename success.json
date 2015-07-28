@@ -13,27 +13,27 @@
   },
   
   {
-    "project_name" : "Alfreds Futterkiste",    
-    "avatar_url" : "Germany",
-	"description" : "Berlin",
-	"summary" : "Alfreds Futterkiste",
-    "code_url" : "Berlin",
-    "demo_url" : "Germany",
-	"frontend_infor" : "Alfreds Futterkiste",
-    "backend_infor" : "Berlin",
-    "demotype" : "Germany"
+    "project_name" : "Database Driven Google Map",    
+    "avatar_url" : "DatabaseDrivenMaps.jpg",
+	"description" : "https://github.com/vernkennedy/Database-Google-Map/blob/master/description.txt",
+	"summary" : "An HTML5 web application that plots arbitrary points on a map. Each point has a tooltip where the information about the point is populated from a MySQL database",
+    "code_url" : "https://github.com/vernkennedy/Database-Google-Map",
+    "demo_url" : "https://www.youtube.com/watch?v=QAgBDwnvH3I",
+	"frontend_infor" : "Html5,CSS3,JavaScript,Google Maps API",
+    "backend_infor" : "Php5,SQL,MySQL",
+    "demotype" : "Video Demo"
   },
   
   {
-    "project_name" : "Alfreds Futterkiste",    
-    "avatar_url" : "Germany",
-	"description" : "Berlin",
-	"summary" : "Alfreds Futterkiste",
-    "code_url" : "Berlin",
-    "demo_url" : "Germany",
-	"frontend_infor" : "Alfreds Futterkiste",
-    "backend_infor" : "Berlin",
-    "demotype" : "Germany"
+    "project_name" : "ScotBoard",    
+    "avatar_url" : "ScotBoard.jpg",
+	"description" : "https://github.com/vernkennedy/IS-ScotBoard/blob/master/description.txt",
+	"summary" : "A Rule Based Expert System / web portal for academic planning and exploration of student opportunities at The College of Wooster",
+    "code_url" : "https://github.com/vernkennedy/IS-ScotBoard",
+    "demo_url" : "https://www.youtube.com/watch?v=lJM2oFMoDkM",
+	"frontend_infor" : "Html5,CSS3,JavaScript,Html5 Drag and Drop API",
+    "backend_infor" : "Php5,SQL,MySQL",
+    "demotype" : "Video Demo"
   }
 ]
 }
